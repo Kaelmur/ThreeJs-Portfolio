@@ -5,6 +5,8 @@ import { Center, OrbitControls } from "@react-three/drei";
 import { Suspense } from "react";
 import CanvasLoader from "../components/CanvasLoader";
 import Computer from "../components/Computer";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 const projectCount = myProjects.length;
 
@@ -22,6 +24,14 @@ function Projects() {
       }
     });
   };
+
+  useGSAP(() => {
+    gsap.fromTo(
+      `.animatedText`,
+      { opacity: 0 },
+      { opacity: 1, duration: 1, stagger: 0.2, ease: "power2.inOut" }
+    );
+  }, [selectedProjectIndex]);
 
   return (
     <section className="c-space my-20" id="work">

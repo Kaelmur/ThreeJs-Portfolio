@@ -60,17 +60,17 @@ export const myProjects = [
     ],
   },
   {
-    title: "Kael's Blog",
-    desc: "Kael Blog is your go-to platform for insightful articles, practical tips, and engaging stories on every topic. Built on the powerful Django framework, website combines seamless functionality with a clean, user-friendly design.",
+    title: "CarePulse",
+    desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
     subdesc:
-      "Whether you're here to learn, explore, or find inspiration, Kael's Blog offers a curated collection of content that keeps you informed and entertained.",
+      "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
     href: "",
-    texture: "/textures/project/Kaelblog.mp4",
-    logo: "/assets/django.jpeg",
+    texture: "/textures/project/carepulse.mp4",
+    logo: "/assets/carepulse.png",
     logoStyle: {
-      backgroundColor: "#283618",
+      backgroundColor: "#60f5a1",
       background:
-        "linear-gradient(0deg, #526E48, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
+        "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
       border: "0.2px solid rgba(208, 213, 221, 1)",
       boxShadow: "0px 0px 60px 0px #355F2E",
     },
@@ -78,23 +78,23 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Django",
-        path: "/assets/django.jpeg",
+        name: "React",
+        path: "/assets/react.svg",
       },
       {
         id: 2,
-        name: "Bootstrap",
-        path: "assets/bootstrap.jpeg",
+        name: "Tailwind",
+        path: "assets/tailwindcss.png",
       },
       {
         id: 3,
-        name: "Python",
-        path: "/assets/python.jpeg",
+        name: "TypeScript",
+        path: "/assets/typescript.png",
       },
       {
         id: 4,
-        name: "Pillow",
-        path: "/assets/pillow.png",
+        name: "NextJs",
+        path: "/assets/nextjs.png",
       },
     ],
   },

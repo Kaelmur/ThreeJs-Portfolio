@@ -31,7 +31,9 @@ function Footer() {
           </div>
         </a>
       </div>
-      <p className="text-white-500">©️ 2024 Kael. All rights reserved.</p>
+      <p className="text-white-500">
+        ©️ {new Date().getFullYear()} Kael. All rights reserved.
+      </p>
     </section>
   );
 }
